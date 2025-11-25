@@ -22,9 +22,18 @@ To write a Python program to print the size of a dictionary using `getsizeof()` 
 ### PROGRAM
 
 ```
-#Reg.No
-#Name
 #Add Your Code Here
+def character_frequency(s):
+    frequency = {}
+    for char in s:
+        if char in frequency:
+            frequency[char] += 1
+        else:
+            frequency[char] = 1
+    return frequency
+user_input = input()
+result = character_frequency(user_input)
+print(result)
 
 
 
@@ -32,5 +41,7 @@ To write a Python program to print the size of a dictionary using `getsizeof()` 
 
 ### OUTPUT
 
+<img width="1337" height="225" alt="image" src="https://github.com/user-attachments/assets/32b4c0b5-315d-407e-93a2-5d92d932cd38" />
 
 ### RESULT
+Thus, the Python program to create a dictionary of character frequencies from a string has been implemented and executed successfully.
