@@ -23,12 +23,23 @@ To create a Python program that prompts the user for a list of grades separated 
 ### PROGRAM
 
 ```
-Reg.No
-Name
-Add Your Code Here
+
+try:
+    n = int(input())
+    a = []
+    for i in range(n):
+        element = int(input())
+        a.append(element)
+    print(a)
+    print(a[6])
+
+except IndexError:
+    print("6 is not accepted")
 
 ```
 
 ### OUTPUT
+<img width="832" height="472" alt="image" src="https://github.com/user-attachments/assets/64be9157-005e-4f95-93b5-eb94cebbd120" />
 
 ### RESULT
+Thus, the Python program to handle IndexError using exception handling has been implemented and executed successfully
