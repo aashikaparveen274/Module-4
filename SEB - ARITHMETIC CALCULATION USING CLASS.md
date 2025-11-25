@@ -35,11 +35,34 @@ To write a Python program to perform addition and division operations using a cl
 ### PROGRAM
 
 ```
-
+class cse:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+    def mul(self):
+        return self.a*self.b
+    def div(self):
+        return self.a//self.b
+a=int(input())
+b=int(input())
+obj=cse(a,b)
+choice=1
+while choice!=0:
+    choice=int(input())
+    if choice==1:
+        print("Result: ",obj.mul())
+    elif choice==2:
+        print("Result: ",obj.div())
+    elif choice==0:
+        print("Exiting!")
+    else:
+        print("Invalid choice!")
 
 
 ```
 
 ### OUTPUT
+<img width="827" height="375" alt="image" src="https://github.com/user-attachments/assets/6a79d5af-efd4-431d-bb4c-dc0765d948b7" />
 
 ### RESULT
+Thus, the Python program using class CSE to perform multiplication and floor division has been implemented and executed successfully.
